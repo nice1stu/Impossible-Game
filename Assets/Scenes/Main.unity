@@ -796,6 +796,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 801bc320e4b0d1e4abdd6faa04f1e570, type: 3}
+--- !u!1 &1365881848 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8593424347010369868, guid: 72e85591f14add0459bf469c5bf87f0d, type: 3}
+  m_PrefabInstance: {fileID: 8555421427937963383}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1386217483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,9 +1318,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"Kind":"Scene","collection":{"$content":[{"name":"winText","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Player","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1602267871}
+    - {fileID: 1365881848}
 --- !u!4 &2065329720
 Transform:
   m_ObjectHideFlags: 0
@@ -1487,7 +1494,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kill Spike
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2783697302849080174, guid: 72e85591f14add0459bf469c5bf87f0d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 72e85591f14add0459bf469c5bf87f0d, type: 3}
 --- !u!1001 &8935554690145870935
 PrefabInstance:
