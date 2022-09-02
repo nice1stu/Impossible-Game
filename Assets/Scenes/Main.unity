@@ -337,7 +337,7 @@ Rigidbody2D:
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &209564597
 SpriteRenderer:
@@ -432,7 +432,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 209564592}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
   m_Name: 
@@ -813,6 +813,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3695258973583187799, guid: 801bc320e4b0d1e4abdd6faa04f1e570, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3137484746588656013, guid: 801bc320e4b0d1e4abdd6faa04f1e570, type: 3}
       propertyPath: m_Name
       value: Obstacle (1)
@@ -1449,7 +1453,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1468689850}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
   m_Name: 
@@ -2193,6 +2197,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1492005450076286519, guid: 72e85591f14add0459bf469c5bf87f0d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1492005450076286519, guid: 72e85591f14add0459bf469c5bf87f0d, type: 3}
       propertyPath: _data._json
       value: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
       objectReference: {fileID: 0}
@@ -2252,8 +2260,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kill Spike
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 2783697302849080174, guid: 72e85591f14add0459bf469c5bf87f0d, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72e85591f14add0459bf469c5bf87f0d, type: 3}
 --- !u!1001 &8935554690145870935
 PrefabInstance:
@@ -2262,6 +2269,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -3695258973583187799, guid: 801bc320e4b0d1e4abdd6faa04f1e570, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3137484746588656013, guid: 801bc320e4b0d1e4abdd6faa04f1e570, type: 3}
       propertyPath: m_Name
       value: Obstacle
