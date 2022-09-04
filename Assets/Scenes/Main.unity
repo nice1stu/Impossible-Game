@@ -1865,8 +1865,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 293778746}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0441, y: 1.013, z: 50}
-  m_LocalScale: {x: 0.4477738, y: 0.40494633, z: 1}
+  m_LocalPosition: {x: -0.3062, y: 1.9865, z: 50}
+  m_LocalScale: {x: 0.4614215, y: 0.49509373, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1428597579}
@@ -3197,7 +3197,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Crashing into the chests will kill you. Jump on or over to clear
+  m_text: Crashing into the chests will kill you. Press [SPACE] to Jump on or over
+    to clear
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
