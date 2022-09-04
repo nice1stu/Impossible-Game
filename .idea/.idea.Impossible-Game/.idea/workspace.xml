@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="62fe0b92-e5c7-43cb-8ea6-fd065199fad2" name="Changes" comment="" />
+    <list default="true" id="62fe0b92-e5c7-43cb-8ea6-fd065199fad2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-21.wav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CasualGameSounds/DM-CGS-21.wav.meta" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,6 +70,7 @@
       <workItem from="1662210889145" duration="2000" />
       <workItem from="1662212861812" duration="1000" />
       <workItem from="1662217120899" duration="2000" />
+      <workItem from="1662251098163" duration="2000" />
     </task>
     <servers />
   </component>
